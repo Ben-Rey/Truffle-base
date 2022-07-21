@@ -1,0 +1,34 @@
+{
+  "name": "truffle-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben-Rey/Truffle-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ben-Rey/Truffle-base/issues"
+  },
+  "homepage": "https://github.com/Ben-Rey/Truffle-base#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.9",
+    "dotenv": "^16.0.1",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.2.25",
+    "solidity-coverage": "0.8.0-beta.1"
+  }
+}
